@@ -7,13 +7,48 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="411dp"
+        android:layout_height="403dp"
+        android:background="@drawable/photo_bg"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="I'm Nazwa Sabira!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:textStyle="bold"
+        android:text="INDONESIA"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="153dp"
+        tools:layout_editor_absoluteY="37dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="JAKARTA"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        tools:layout_editor_absoluteX="120dp"
+        tools:layout_editor_absoluteY="64dp"/>
+
+    <Button
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:background="@drawable/btn_play"
+        tools:layout_editor_absoluteX="173dp"
+        tools:layout_editor_absoluteY="185dp" />
+
+    <ImageView
+        android:layout_width="411dp"
+        android:layout_height="190dp"
+        android:background="@drawable/overlay"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="213dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
